@@ -47,3 +47,60 @@
   margin: auto;
   margin-top: 20px; 
 }
+
+/* calculation seat -4  */
+.content-area-cotainer{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px; 
+  border: 1px solid gray;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Availeble-seat-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.select-set-container{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+.left-seat-content{
+  width: 60%;
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+  height:500px;
+  
+
+}
+.right-calculation-container{
+  width: 50%;
+  border: 1px solid gray;
+}
+
+.right-calculation{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  align-items: center;
+  
+}
+.calculation-seat{
+  display: flex;
+  justify-content: space-around;
+}
+.grand-calculation-seat{
+  display: flex;
+  justify-content: space-around;
+}
