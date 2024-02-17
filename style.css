@@ -1,6 +1,49 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
-
-.font-raleway{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  .raleway-font{
     font-family: "Raleway", sans-serif;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.p-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid gray;
+}
+.banner-container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./images/banner.png');
+  /* width: 1171; */
+  height: 500px;
+  border: 1px solid gray;
+}
+
+/* offer section  */
+.offer-section{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.offer-container{
+  display: flex;
+  height: 220px;
+}
+
+/* seats section -3  */
+.content-seats{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px; 
 }
