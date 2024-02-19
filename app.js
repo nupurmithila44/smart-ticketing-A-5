@@ -33,7 +33,26 @@ for ( let index = 0; index < leftSeatConntent.length; index++){
 
 const btn = document.getElementById("apply-button")
 btn.addEventListener("click", function(){
-  console.log("clic")
-  const couponElement =document.getElementById("input-field");
- 
+  const couponElement =document.getElementById("input-field").value;
+  const couponcode = couponElement.split(" ").join("").toUpperCase();
+  console.log(couponcode)
+  // const p4 = document.createElement("p")
+  // p4.innerText ='discount price:';
+  const discountText = document.getElementById("discount");
+  discountText.innerText = "discount price:"
+  if(totalPrice >=2200){
+   if(couponcode === "NEW15"){
+    const discountElement = document.getElementById("discount-price");
+    const discountAmount = totalPrice * 0.15;
+    discountElement.innerText = discountAmount.toFixed(2);
+
+    // Grand calcul 
+    const grandTotal = document.getElementById("grand-total")
+    
+   }else{
+    alert("invalid coupon")
+   }
+  }else{
+    alert("four tickets have been selected and will not be sold")
+  } 
 })
