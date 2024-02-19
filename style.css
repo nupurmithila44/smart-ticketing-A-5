@@ -108,3 +108,16 @@
   display: flex;
   justify-content: space-around;
 }
+.li{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  list-style: numeric;
+}
+.selected-seat-container{
+  width: 200px;
+  margin: auto;
+}
