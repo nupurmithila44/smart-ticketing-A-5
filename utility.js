@@ -86,10 +86,10 @@ btnaply.addEventListener("click", function(){
   const couponcode = couponElement.split(" ").join("").toUpperCase();
   const discountText = document.getElementById("discount");
   discountText.innerText = "discount price:"
-  if(totalPrice>=2200){
+  if (parseInt(price)>=2200){
    if(couponcode === "NEW15"){
     const discountElement = document.getElementById("discount-price");
-    const discountAmount = totalprice * 0.15;
+    const discountAmount = parseInt(price) * 0.15;
     discountElement.innerText = discountAmount.toFixed(2);
 
     // Grand calcul 

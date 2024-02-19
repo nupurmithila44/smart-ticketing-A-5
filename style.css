@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    border: 1px solid gray;
+   
 }
 .banner-container{
   width: 80%;
@@ -55,7 +55,7 @@
   width: 80%;
   margin: auto;
   margin-top: 20px; 
-  border: 1px solid gray;
+  
   padding: 30px;
   display: flex;
   justify-content: space-between;
@@ -88,7 +88,7 @@
 }
 .right-calculation-container{
   width: 40%;
-  border: 1px solid gray;
+ 
 
 }
 
@@ -96,7 +96,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  border: 1px solid gray;
+
   align-items: center;
   
 }
